@@ -1,13 +1,14 @@
-package application;
+package ExemplosCrudJDBC;
 
 import db.DB;
 import db.DbException;
+import db.DbIntegrityException;
 
 import java.sql.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-public class AtualizarDados {
+public class DeletarDados {
     public static void main(String[] args) {
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
@@ -15,25 +16,24 @@ public class AtualizarDados {
         PreparedStatement st = null;
 
         try {
-
             conn = DB.getConnection();
 
             st = conn.prepareStatement(
-                    "UPDATE seller "
-                            + "SET BaseSalary = BaseSalary + ? "
-                            + "Where "
-                            + "(DepartmentId = ?)");
-            st.setDouble(1, 200.0);
-            st.setInt(2, 2);
+                    "DELETE from department "
+                            + "WHERE "
+                            + "Id = ?");
 
+            st.setInt(1, 5);
             int rowAffected = st.executeUpdate();
+
             System.out.println("Done " + rowAffected);
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new DbIntegrityException(e.getMessage());
         } finally {
             DB.closeStatement(st);
             DB.closeConnecyion();
         }
     }
 }
+

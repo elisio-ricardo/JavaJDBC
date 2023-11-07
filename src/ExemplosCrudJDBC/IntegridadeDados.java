@@ -1,4 +1,4 @@
-package application;
+package ExemplosCrudJDBC;
 
 import db.DB;
 import db.DbException;
