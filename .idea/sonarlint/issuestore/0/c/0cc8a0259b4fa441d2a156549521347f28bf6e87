@@ -1,0 +1,6 @@
+
+{	java:S115	"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(îŒëÚúÿÿÿÿ8®Á—Üº1
+
+java:S11496"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(›ÖÊ‹ûÿÿÿÿ8²Á—Üº1
+V
+java:S1068	"4Remove this unused "seriaLVersionUID" private field.(îŒëÚúÿÿÿÿ8»Á—Üº1

@@ -1,0 +1,9 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒæÛ‘8©À—Üº1
+J
+java:S1481"(Remove this unused "sdf" local variable.(ÓÌ¤æýÿÿÿÿ8ÌÀ—Üº1
+G	java:S106"+Replace this use of System.out by a logger.(µÌç«8ÜÀ—Üº1
+M
+java:S1128"+Remove this unused import 'db.DbException'.(ë‚™òýÿÿÿÿ8àÀ—Üº1
+R
+java:S1128"5Remove this unused import 'java.text.ParseException'.(ñ®ï•8àÀ—Üº1

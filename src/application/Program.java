@@ -16,5 +16,8 @@ public class Program {
         //Dessa forma o programa não conhece a classe de implemetação apenas a interface
         SellerDao sellerDao = DaoFactory.createSellerDao();
 
+        Seller sel = sellerDao.findById(3);
+        System.out.println(sel);
+
     }
 }
