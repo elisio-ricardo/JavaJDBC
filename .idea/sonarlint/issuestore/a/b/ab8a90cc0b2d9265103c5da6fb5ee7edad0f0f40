@@ -1,3 +1,16 @@
 
-L	java:S106"+Replace this use of System.out by a logger.(¿İ¨ÿÿÿÿÿ8ÒÛ¹Üº1
-L	java:S106"+Replace this use of System.out by a logger.(ª‰‡¾üÿÿÿÿ8Ú »Üº1
+\
+java:S1854":Remove this useless assignment to local variable "seller".(Èß€àıÿÿÿÿ8Áï¨…»1
+M
+java:S1481"+Remove this unused "seller" local variable.(Èß€àıÿÿÿÿ8Ãï¨…»1
+F	java:S106"+Replace this use of System.out by a logger.(âèË 8Ãï¨…»1
+F	java:S106"+Replace this use of System.out by a logger.(¯“ìL8Äï¨…»1
+L	java:S106"+Replace this use of System.out by a logger.(ƒÇãˆúÿÿÿÿ8Äï¨…»1
+L	java:S106"+Replace this use of System.out by a logger.(‹éò‡øÿÿÿÿ8Äï¨…»1
+G	java:S106"+Replace this use of System.out by a logger.(Áªø8Äï¨…»1
+L	java:S106 "+Replace this use of System.out by a logger.(ƒÇãˆúÿÿÿÿ8Äï¨…»1
+F	java:S106!"+Replace this use of System.out by a logger.(â‘L8Äï¨…»1
+G	java:S106$"+Replace this use of System.out by a logger.(Áªø8Åï¨…»1
+L	java:S106'"+Replace this use of System.out by a logger.(ƒÇãˆúÿÿÿÿ8Åï¨…»1
+L	java:S106("+Replace this use of System.out by a logger.(†ë••ùÿÿÿÿ8Åï¨…»1
+G	java:S106+"+Replace this use of System.out by a logger.(¹ÌÑ¬8Åï¨…»1
