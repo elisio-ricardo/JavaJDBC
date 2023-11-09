@@ -7,9 +7,14 @@ import model.entities.Seller;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
         Department department = new Department(1, "Books");
 
         Seller seller = new Seller(21, "Bob", "bob@gmail.com", new Date(), 3000.00, department);
@@ -48,6 +53,15 @@ public class Program {
         seller.setName("Ricardo Canuto");
         sellerDao.update(seller);
         System.out.println("Update completed ! ");
+
+//        System.out.println("\n");
+//        System.out.println("=========== Teste 5 Seller Delete ===============");
+//        System.out.println("Entre com o id para delete: ");
+//        int id = sc.nextInt();
+//        sellerDao.deleteById(id);
+//        System.out.println("Delete concluido");
+//        sc.close();
+
 
     }
 }
